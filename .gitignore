@@ -40,3 +40,21 @@ PlantDiseaseRecognition/mvnw.cmd
 PlantDiseaseRecognition/target/
 PlantDiseaseRecognition/.mvn/
 BuildCSVFileForImageDataSet/.settings/
+
+
+# compiled output
+PortalProject/dist
+PortalProject/tmp
+PortalProject/out-tsc
+
+# dependencies
+PortalProject/node_modules
+
+# IDEs and editors
+.idea
+PortalProject/.project
+PortalProject/.classpath
+PortalProject/.c9/
+PortalProject/*.launch
+PortalProject/.settings/
+PortalProject/*.sublime-workspace
