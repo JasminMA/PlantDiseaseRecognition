@@ -40,3 +40,4 @@ PlantDiseaseRecognition/mvnw.cmd
 PlantDiseaseRecognition/target/
 PlantDiseaseRecognition/.mvn/
 BuildCSVFileForImageDataSet/.settings/
+PlantDiseaseRecognition/.*
