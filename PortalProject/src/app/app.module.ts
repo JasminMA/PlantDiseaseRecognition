@@ -9,10 +9,14 @@ import {AppRoutingModule} from './app.routing';
 
 import {AppComponent} from './app.component';
 import {BrowserModule} from '@angular/platform-browser';
+import { DetectionModulesComponent } from './detection-modules/detection-modules.component';
+import { ShopModulesComponent } from './shop-modules/shop-modules.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DetectionModulesComponent,
+    ShopModulesComponent
   ],
   imports: [
     BrowserModule,
