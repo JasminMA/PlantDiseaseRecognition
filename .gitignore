@@ -41,6 +41,9 @@ PlantDiseaseRecognition/target/
 PlantDiseaseRecognition/.mvn/
 BuildCSVFileForImageDataSet/.settings/
 
+PlantDiseaseRecognition/.*
+=======
+
 
 # compiled output
 PortalProject/dist
