@@ -3,30 +3,37 @@ import {NgModule} from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
-
-
-import {AppRoutingModule} from './app.routing';
-
+//import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {BrowserModule} from '@angular/platform-browser';
-import { DetectionModulesComponent } from './detection-modules/detection-modules.component';
-import { ShopModulesComponent } from './shop-modules/shop-modules.component';
+import {CommonModule} from '@angular/common';
+import {FileUploadModule} from 'primeng/fileupload';
+import {MessagesModule} from 'primeng/messages';
+import {MessageModule} from 'primeng/message';
+import {ToastModule} from 'primeng/toast';
+import {ButtonModule} from 'primeng/button';
+import {HeaderComponent} from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DetectionModulesComponent,
-    ShopModulesComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    //AppRoutingModule,
     BrowserAnimationsModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RouterModule
+    RouterModule,
+    CommonModule,
+    FileUploadModule,
+    MessagesModule,
+    MessageModule,
+    ToastModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

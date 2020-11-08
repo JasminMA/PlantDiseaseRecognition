@@ -1,2 +1,15 @@
-<h3 style="color: blueviolet">Hello AWS</h3>
-<router-outlet></router-outlet>
+<app-header (featureSelected)="onNavigate($event)"></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 style="color: black">Insert Image</h3>
+      <router-outlet></router-outlet>
+      <p-toast></p-toast>
+      <p-fileUpload #form name="demo[]" (uploadHandler)="myUploader($event, form)"
+                    multiple="multiple" accept="image/*"
+                    customUpload="false" maxFileSize="1000000">
+      </p-fileUpload>
+
+    </div>
+  </div>
+</div>
