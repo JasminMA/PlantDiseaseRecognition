@@ -9,6 +9,7 @@ import {TabViewModule} from 'primeng/tabview';
 
 @NgModule({
   declarations: [DiseaseDetectionComponent],
+  exports: [DiseaseDetectionComponent],
   imports: [
     CommonModule,
     FileUploadModule,

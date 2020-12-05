@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {RouterModule} from '@angular/router';
-//import {AppRoutingModule} from './app.routing';
+import {AppRoutingModule} from './app.routing';
 import {AppComponent} from './app.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {CommonModule} from '@angular/common';
@@ -13,15 +13,17 @@ import {MessageModule} from 'primeng/message';
 import {ToastModule} from 'primeng/toast';
 import {ButtonModule} from 'primeng/button';
 import {HeaderComponent} from './header/header.component';
+import {DetectionModulesModule} from './detection-modules/detection-modules.module';
 
 @NgModule({
-  declarations: [
+
+  declarations: [// Inside of the declarations array, we define all the components, directives and pipes
     AppComponent,
     HeaderComponent
   ],
   imports: [
     BrowserModule,
-    //AppRoutingModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     BrowserAnimationsModule,
     FormsModule,
@@ -33,10 +35,11 @@ import {HeaderComponent} from './header/header.component';
     MessagesModule,
     MessageModule,
     ToastModule,
-    ButtonModule
+    ButtonModule,
+    DetectionModulesModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] // Defines the root-component of the Application. Only use this in the AppModule.
 })
 export class AppModule {
 }

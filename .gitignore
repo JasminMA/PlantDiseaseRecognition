@@ -24,16 +24,7 @@ hs_err_pid*
 BuildCSVFileForImageDataSet/test.csv
 BuildCSVFileForImageDataSet/.classpath
 BuildCSVFileForImageDataSet/.project
-BuildCSVFileForImageDataSet/target/classes/META-INF/MANIFEST.MF
-BuildCSVFileForImageDataSet/target/classes/META-INF/maven/BuildCSVFile/BuildCSVFile/pom.properties
-BuildCSVFileForImageDataSet/target/classes/META-INF/maven/BuildCSVFile/BuildCSVFile/pom.xml
-BuildCSVFileForImageDataSet/target/maven-archiver/pom.properties
-BuildCSVFileForImageDataSet/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-BuildCSVFileForImageDataSet/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-BuildCSVFileForImageDataSet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
-BuildCSVFileForImageDataSet/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
-BuildCSVFileForImageDataSet/target/surefire-reports/com.java.proj.test.DataConverterTest.txt
-BuildCSVFileForImageDataSet/target/surefire-reports/TEST-com.java.proj.test.DataConverterTest.xml
+BuildCSVFileForImageDataSet/target/*
 PlantDiseaseRecognition/HELP.md
 PlantDiseaseRecognition/mvnw
 PlantDiseaseRecognition/mvnw.cmd
