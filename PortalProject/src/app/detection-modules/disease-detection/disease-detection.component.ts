@@ -31,12 +31,13 @@ export class DiseaseDetectionComponent implements OnInit {
       // console.log('imageStream: ' + this.imageStream);
       this.imageService.uploadImage(this.imageStream).subscribe(res => {
         console.log("Predicted >>>>>>> ")
-        this.messageService.add({severity: 'success', summary: 'Success', detail: res.body , sticky :true});
+        this.messageService.add({severity: res.statusCode === 200 ? 'success' : 'error',
+          summary: res.statusCode === 200 ? 'Success' : 'Error', detail: res.body , sticky :true});
         console.log(res);
+        form.clear();
       });
 
     };
-    form.clear();
   }
 
   private convertFileToString(file): FileReader {
